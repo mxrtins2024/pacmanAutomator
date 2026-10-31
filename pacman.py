@@ -34,57 +34,57 @@ def pacman():
         subprocess.run([
             "sudo", "pacman", "-U", package
         ])
-    # [5] Download package without install
+    # [5] Download package without installing it
     def download_no_install(package):
         subprocess.run([
             "sudo", "pacman", "-Sw", package
         ])
-    # [6] Search for already installed package
+    # [6] Search for installed package
     def search_installed(package):
         subprocess.run([
             "pacman", "-Qs", package
         ])
-    # [7] List detailed info of a installed package
+    # [7] List detailed information of installed package
     def list_info_installed(package):
         subprocess.run([
             "sudo", "pacman", "-Qi", package
         ])
-    # [8] List download files of a package
+    # [8] List files belonging to installed package
     def list_files_downloaded(package):
         subprocess.run([
             "sudo", "pacman", "-Ql", package
         ])
-    # [9] List all installed packages in the system
+    # [9] List all downloaded packages of the system
     def list_all():
         subprocess.run([
             "pacman", "-Q"
         ])
-    # [10] Search for package in the repository
+    # [10] Search for package in repositories
     def search_repo(package):
         subprocess.run([
             "pacman", "-Ss", package
         ])
-    # [11] Show info of a package of the repository
+    # [11] Display repository package information
     def info_repo(package):
         subprocess.run([
             "pacman", "-Si", package
         ])
-    # [12] Remove installed package
+    # [12] Remove package
     def remove(package):
         subprocess.run([
             "sudo", "pacman", "-R", package
         ])
-    # [13] Remove installed package and dependencies (not used by others)
+    # [13] Remove packages along with unused dependencies
     def remove_dependencies(package):
         subprocess.run([
             "sudo", "pacman", "-Rs", package
         ])
-    # [14] Remove installed package, dependencies and configs
+    # [14] Remove packages, dependencies and configuration files
     def remove_all(package):
         subprocess.run([
             "sudo", "pacman", "-Rns", package
         ])
-    # [15] List installed packages as dependencies that are no longer necessary
+    # [15] List installed packages as dependencies that are no longer needed
     def list_packages_dependencies_useless():
         subprocess.run([
             "pacman", "-Qdt"
@@ -125,8 +125,8 @@ options = {
     ),
     7: (
         f" {icons[3]} List detailed information of installed package",
-        f"{icons[1]} Search for installed package selected",
-        f"{icons[3]} {messages[0]} search?"
+        f"{icons[1]} List detailed information of installed package selected",
+        f"{icons[3]} {messages[0]} list?"
     ),
     8: (
         f" {icons[3]} List files belonging to installed package",
@@ -145,7 +145,7 @@ options = {
     11: (
         f"{icons[3]} Display repository package information",
         f"{icons[1]} Display repository package information selected",
-        f"{icons[3]} {messages[0]} show info?"
+        f"{icons[3]} {messages[0]} display information?"
     ),
     12: (
         f"{icons[4]} Remove package",
