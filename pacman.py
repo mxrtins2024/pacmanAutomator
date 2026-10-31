@@ -129,22 +129,22 @@ options = {
         f"{icons[3]} {messages[0]} search?"
     ),
     8: (
-        f" {icons[3]} List downloaded files from a package",
-        f"{icons[1]} List downloaded files from a package selected",
-        f"{icons[3]} Which downloaded files from a package you want to list?"
+        f" {icons[3]} List files belonging to installed package",
+        f"{icons[1]} List files belonging to installed package selected",
+        f"{icons[3]} Which files belonging from a installed package do you want to list?"
     ),
     9: (
         f" {icons[3]} List all downloaded packages of the system",
         f"{icons[1]} List all downloaded packages of the system selected"
     ),
     10: (
-        f"{icons[3]} Search package in the repository",
-        f"{icons[1]} Search package in the repositoty selected",
+        f"{icons[3]} Search for package in repositories",
+        f"{icons[1]} Search for package in repositories selected",
         f"{icons[3]} {messages[0]} search?"
     ),
     11: (
-        f"{icons[3]} Show info of package in the repository",
-        f"{icons[1]} Show info of package in the repository selected",
+        f"{icons[3]} Display repository package information",
+        f"{icons[1]} Display repository package information selected",
         f"{icons[3]} {messages[0]} show info?"
     ),
     12: (
@@ -153,17 +153,17 @@ options = {
         f"{icons[8]} {messages[0]} remove?"
     ),
     13: (
-        f"{icons[4]} Remove package and dependencies (not used by others)",
-        f"{icons[1]} Remove package and dependencies (not used by others) selected",
+        f"{icons[4]} Remove packages along with unused dependencies",
+        f"{icons[1]} Remove packages along with unused dependencies selected",
         f"{icons[8]} {messages[0]} remove?"
     ),
     14: (
-        f"{icons[4]} Remove package, dependencies and configs",
-        f"{icons[1]} Remove package, dependencies and configs selected",
+        f"{icons[4]} Remove packages, dependencies and configuration files",
+        f"{icons[1]} Remove packages, dependencies and configuration files selected",
         f"{icons[8]} {messages[0]} remove?"
     ),
     15: (
-        f"{icons[4]} List installed packages as dependencies that are no longer necessary",
+        f"{icons[4]} List installed packages as dependencies that are no longer needed",
         f"{icons[1]} List installed packages as dependencies that are no longer necessary selected"
     )
 }
