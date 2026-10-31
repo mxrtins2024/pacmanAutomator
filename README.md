@@ -35,9 +35,9 @@ It provides an interactive terminal interface that allows users to execute vario
 - Download packages without installing them.
 
 ### Package Information
-- Search for installed packages.
-- Display detailed information about installed packages.
-- List files belonging to installed packages.
+- Search for installed package.
+- Display detailed information about installed package.
+- List files belonging to installed package.
 - List all installed packages.
 - Search for packages in repositories.
 - Display repository package information.
