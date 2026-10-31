@@ -20,7 +20,7 @@
 It provides an interactive terminal interface that allows users to execute various Pacman operations through a single menu, eliminating the need to manually type commands for everyday package management tasks.
 
 <p align="center">
-    <img src="images/automator.png" alt="Pacman Automator" style="border-radius: 7px">
+    <img src="/main/images/automator.png" alt="Pacman Automator" style="border-radius: 7px;">
 </p>
 
 ## Features
