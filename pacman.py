@@ -188,7 +188,6 @@ processes_arg = {
 
 # Automator intro and process choice
 print(f"{icons[7]} \033[36mPacman {messages[3]}\033[0m {icons[7]}")
-print("")
 time.sleep(0.2)
 print(messages[1])
 for i, option in options.items():
