@@ -164,7 +164,7 @@ options = {
     ),
     15: (
         f"{icons[4]} List installed packages as dependencies that are no longer needed",
-        f"{icons[1]} List installed packages as dependencies that are no longer necessary selected"
+        f"{icons[1]} List installed packages as dependencies that are no longer needed selected"
     )
 }
 
