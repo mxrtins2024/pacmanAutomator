@@ -19,6 +19,7 @@ def pacman():
                 print(f"{icons[9]} {messages[2]}")
         else:
             print(f"{icons[9]} {messages[2]}")
+    # [2] Database sync
     def database():
         subprocess.run([
             "sudo", "pacman", "-Sy"
