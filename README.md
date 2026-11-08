@@ -23,6 +23,14 @@ It provides an interactive terminal interface that allows users to execute vario
     <img src="automator.png" alt="Pacman Automator" style="border-radius: 7px;">
 </p>
 
+---
+
+## V1.1 Update (07/11/2026)
+
+ - Now, the operations support mutiple packages, like `sudo pacman -S ffmpeg cava`
+ - XBPS and APT package manager implementation in the future
+ - Minor bugs fixed
+
 ## Features
 
 ### System Management
@@ -54,7 +62,6 @@ It provides an interactive terminal interface that allows users to execute vario
 
 - After installing, a folder named **pacmanAutomator** will be created in `~/.config` with the automator scripts.
 - The **syspacman** will be located in `/usr/local/bin`
-- The operations that require a package, like `sudo pacman -S package` only support **1** package. Example: `sudo pacman -S fastfetch`
 
 ## Requirements
 
