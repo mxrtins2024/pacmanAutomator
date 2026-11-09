@@ -28,12 +28,12 @@ def exec_pacman():
                 update_choice_input = input("> ")
                 if type(update_choice_input) == str:
                     update_choice = str(update_choice_input)
-                    if update_choice == "" or "y" or "Y":
+                    if update_choice == "" or update_choice == "y" or update_choice == "Y":
                         print(options[1][1])
                         subprocess.run([
                             "sudo", "pacman", pacman_arg[1]
                         ])
-                    elif update_choice == "n" or "N":
+                    elif update_choice == "n" or update_choice == "N":
                         print(f"{messages[4]}")
                     else:
                         print(f"{icons[9]} {messages[2]}")
@@ -58,13 +58,16 @@ def exec_pacman():
                 print(options[choice][1])
                 print(options[choice][2])
                 package = input("> ")
-                pkgs = package.split()
-                if not pkgs:
+                if type(package) == str:
+                    pkgs = package.split()
+                    if not pkgs:
+                        print(f"{icons[9]} {messages[2]}")
+                        return
+                    subprocess.run([
+                        "sudo", "pacman", pacman_arg[choice], *pkgs
+                    ])
+                else:
                     print(f"{icons[9]} {messages[2]}")
-                    return
-                subprocess.run([
-                    "sudo", "pacman", pacman_arg[choice], *pkgs
-                ])
     else:
         print(f"{icons[9]} {messages[2]}")
 exec_pacman()
