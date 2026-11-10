@@ -1,7 +1,7 @@
 import sys, os
 
 messages =  [
-    "Which do package you want to",   # 0
+    "Which package do you want to",   # 0
     "What do you want to do?",        # 1
     "Invalid option",                 # 2
     "Automator",                      # 3
