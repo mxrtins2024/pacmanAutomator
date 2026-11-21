@@ -27,7 +27,7 @@ It provides an interactive terminal interface that allows users to execute vario
 
 ## V1.1 Update (07/11/2026)
 
- - Now, the operations support mutiple packages, like `sudo pacman -S ffmpeg cava`
+ - Now, the operations support multiple packages, like `sudo pacman -S git python`
  - XBPS and APT package manager implementation in the future
  - Minor bugs fixed
 
