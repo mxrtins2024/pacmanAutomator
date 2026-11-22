@@ -108,8 +108,6 @@ After starting the program, an interactive menu will be displayed with the avail
 
 Select the desired operation by entering its corresponding number and follow the instructions displayed in the terminal.
 
-Some operations require administrator privileges and may prompt for your password through `sudo`.
-
 ## Disclaimer
 
 This project is an independent tool that uses the native Pacman package manager.
