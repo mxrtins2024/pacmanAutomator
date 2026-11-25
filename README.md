@@ -67,8 +67,7 @@ It provides an interactive terminal interface that allows users to execute vario
 
 - Python 3
 - Noto Fonts Emoji
-- Pacman Package Manager
-- Arch Linux or an Arch-based distribution (CachyOS, EndeavourOS, ...)
+- Arch Linux or an Arch-based distribution (CachyOS, EndeavourOS, Manjaro, ...)
 
 ## Installation
 
