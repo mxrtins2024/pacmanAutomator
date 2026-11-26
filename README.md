@@ -59,7 +59,7 @@ It provides an interactive terminal interface that allows users to execute vario
 
 ## Notes before installing and using
 
-- After installing, a folder named **pacmanAutomator** will be created in `~/.config` with the automator scripts.
+- After installing, a folder named **PackageManagerAutomator** will be created in `~/.config` with the automator scripts.
 - The **syspacman** will be located in `/usr/local/bin`
 
 ## Requirements
