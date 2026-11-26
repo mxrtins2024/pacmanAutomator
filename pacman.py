@@ -25,7 +25,7 @@ def exec_pacman():
     if choice_input.isnumeric():
         choice = int(choice_input)
         if choice <= 15 and choice >= 1:
-            if choice == 1 or choice == 2 or choice == 9 or choice == 15:
+            if choice <= 2 or choice == 9 or choice == 15:
                 def exec_no_args():
                     if choice == 1:
                         time.sleep(0.2)
