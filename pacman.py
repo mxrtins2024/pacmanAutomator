@@ -1,5 +1,8 @@
-import subprocess, time, sys
-from data import icons, messages, options
+import subprocess, time, sys, os, getpass
+user = getpass.getuser()
+sys.path.insert(0, os.path.abspath(f'/home/{user}/.config/PackageManagerAutomator/data/'))
+from data import icons, messages
+from pacmanData import options
 
 no_arg = {
     1: "-Syu", 2: "-Sy",
