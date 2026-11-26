@@ -25,11 +25,10 @@ It provides an interactive terminal interface that allows users to execute vario
 
 ---
 
-## V1.1 Update (07/11/2026)
+## V1.2 Update (26/11/2026)
 
- - Now, the operations support multiple packages, like `sudo pacman -S git python`
- - XBPS and APT package manager implementation in the future
- - Minor bugs fixed
+- Repository preparation for XBPS and APT integration.
+- The `Pacman Automator` will be renamed to `Package Manager Automator` due to the others package managers integration and consequentely, other distros.
 
 ## Features
 
@@ -67,7 +66,8 @@ It provides an interactive terminal interface that allows users to execute vario
 
 - Python 3
 - Noto Fonts Emoji
-- Arch Linux or an Arch-based distribution (CachyOS, EndeavourOS, Manjaro, ...)
+- Pacman Package Manager
+- Arch Linux or an Arch-based distribution (CachyOS, EndeavourOS, ...)
 
 ## Installation
 
@@ -106,6 +106,8 @@ syspacman
 After starting the program, an interactive menu will be displayed with the available operations.
 
 Select the desired operation by entering its corresponding number and follow the instructions displayed in the terminal.
+
+Some operations require administrator privileges and may prompt for your password through `sudo`.
 
 ## Disclaimer
 
